@@ -1,0 +1,15 @@
+// ltl-otp/main.ltl
+//
+// HOTP / TOTP (RFC 4226 / 6238) generator + verifier.
+//
+// This is an early skeleton — contribution is welcome! See the
+// README for build instructions.
+
+import std::io
+import std::fmt
+
+pub fn main(args: [str]) -> Int {
+    io::println("ltl-otp v0.1.0")
+    io::println("HOTP / TOTP (RFC 4226 / 6238) generator + verifier.")
+    0
+}
