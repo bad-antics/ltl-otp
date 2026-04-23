@@ -1,0 +1,10 @@
+// examples/demo.ltl — runnable demo for ltl_otp
+
+import std::io
+use ltl_otp as lib
+
+fn main() {
+    io::println("ltl_otp demo starting...")
+    let result = lib::main() |> io::inspect()
+    io::println("demo complete")
+}
